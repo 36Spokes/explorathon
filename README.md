@@ -1,1 +1,9 @@
-# explorathon
+# Making a Paper Piano
+This page describes all the details of how to make your own paper piano using electrically conductive ink and an Arduino Uno microcontroller platform.  The project offers a great introduction to some simple coding, bringing engineering and art together to create something amazing!  We hope you enjoy completing this project!
+## The Theory: What, Why, How
+### What is this project all about?
+Low cost sensors have already changed our world.  For example, smart phones are packed full of touch sensors, light sensors, movement sensors and temperature sensors, to name a few.  What if we could use sensors to detect infectious diseases really quickly with something like a mobile phone?  Or measure the quality of drinking water, or soil fertility rapidly?  Currently, most of these challenges require a laboratory with a trained scientist who knows what they are doing.  In this research, we’re borrowing techniques from Art and Design to make sensors that are low cost without the need for a specialist laboratory.
+### Why print piano keyboards using woodblocks?
+Printing is used everywhere to make multiple copies of the same design.  Woodblock printing is one of the oldest printing methods.  We are using it here because it is highly accessible: at its simplest nothing more than a piece of wood and a sharp tool are needed to create a pattern that can then be printed hundreds of times over. In our research, we’re borrowing these techniques and combining them with electronic inks to make functioning sensors.  The example here shows how woodblock printing can be used to make a sensors similar to the touch screen on your phone.
+### How does it work?
+The keys of the piano are printed with a carbon based ink.  Many carbon materials are conductive and we can use electronic circuits to measure changes in their electrical properties. When you touch the keys of the piano, your body has an effects on the charge (electrons) present within the circuit. This is an example of a capacitive sensor.
