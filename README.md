@@ -36,8 +36,8 @@ The final step is adding the speaker to the circuit.  To do this, simply connect
 
 ![1668240466698](https://user-images.githubusercontent.com/54633461/201464994-be70eb55-7c96-4fbc-af60-32cac6015390.jpeg)
 
-##Step 4: Upload the code to the Aruidno
-We adapted this code from a piano project by Barqunics, avialbe on the Arduino Playground [here](https://create.arduino.cc/projecthub/Barqunics/paper-piano-with-arduino-e27da7?ref=tag&ref_id=piano&offset=1).  Open up the Arduino IDE, create a new sketch and copy and paste this code into it (you can lean how to use the IDE [here](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2).
+## Step 4: Upload the code to the Aruidno
+We adapted this code from a piano project by Barqunics, avialbe on the Arduino Playground [here](https://create.arduino.cc/projecthub/Barqunics/paper-piano-with-arduino-e27da7?ref=tag&ref_id=piano&offset=1).  Open up the Arduino IDE, create a new sketch and copy and paste this code into it (you can lean how to use the IDE [here](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2):
 
 ```
 
@@ -129,3 +129,7 @@ void loop()
 }
 
 ```
+
+You also need to add the capacitiveSensor library to the Sketch too.  You can find out how to add lbraries to sketechs by clicking on the library manager (on the left hand side of the IDE and searching for the capacitiveSensor library.  Once this is done, you can verfiy and upload your sketch.
+
+**Happy Coding!**
